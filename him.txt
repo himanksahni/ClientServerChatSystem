@@ -1,0 +1,2 @@
+Hard links are the directory entries which points to a file anywhere in a file system. Hard links points to the the inode number of the original file. In our assignment, it is hard to detect hard links because hard links can point to a file anywhere in the file system which can have any name so we have to compare their inode number. And every time we found a sub-directory we make a new process which makes it more difficult to compare the inode of other files to find the file hard link is pointing to. 
+
